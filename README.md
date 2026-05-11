@@ -1,70 +1,53 @@
 Customer Behavior Analysis & Sales Analytics
 📌 Overview
 
-This project focuses on analyzing customer behavior and sales patterns using a combination of Python, SQL, and Power BI. The goal is to uncover insights into how customer demographics—especially age groups—influence purchasing behavior and overall sales performance.
-
-By integrating data processing, querying, and visualization, this project provides a complete analytics pipeline from raw data to actionable insights.
+This project analyzes customer behavior and sales trends using Python, SQL, and Power BI. The goal is to uncover purchasing patterns, identify high-value customers, and generate business insights through data analysis and visualization.
 
 🎯 Objectives
-Analyze sales performance per customer
-Understand customer purchasing behavior
-Identify trends based on age groups
-Create interactive dashboards for business decision-making
+Analyze customer purchasing behavior
+Track sales performance and revenue trends
+Identify customer segments based on age groups
+Build interactive dashboards for business insights
 🛠️ Tech Stack
-Python – Data cleaning, preprocessing, and exploratory data analysis
-SQL – Data extraction, transformation, and querying
-Power BI – Data visualization and dashboard creation
+Python – Data cleaning and analysis
+SQL – Data querying and aggregation
+Power BI – Dashboard creation and visualization
 📂 Project Structure
 ├── data/
-│   ├── raw_data.csv
-│   └── cleaned_data.csv
-│
 ├── python/
-│   ├── data_cleaning.py
-│   ├── analysis.ipynb
-│
 ├── sql/
-│   ├── queries.sql
-│
 ├── powerbi/
-│   ├── dashboard.pbix
-│
 └── README.md
-🔍 Key Analysis Performed
-1. Customer Segmentation
-Grouped customers based on age categories
+🔍 Key Analysis
+Customer Segmentation
+
+Customers were grouped into:
+
 Youth (18–25)
 Adults (26–40)
-Middle-aged (41–60)
+Middle-Aged (41–60)
 Seniors (60+)
-2. Sales Analysis
-Total sales per customer
+Sales & Behavioral Analysis
+Total sales and revenue trends
 Average order value
 Purchase frequency
-3. Behavioral Insights
-Spending patterns across different age groups
-High-value customer identification
 Repeat vs one-time customers
-📈 Power BI Dashboard Features
-Interactive filters by age group, customer ID, and time period
-Visualizations:
+High-value customer identification
+📈 Dashboard Features
 Sales by age group
-Customer distribution
 Revenue trends
-KPI metrics:
-Total revenue
-Average sales per customer
-Customer retention indicators
+Customer distribution
+KPI tracking
+Interactive filters for customer and time analysis
 ⚙️ Workflow
-Data Collection
-Imported raw sales and customer data
-Data Cleaning (Python)
-Handled missing values
-Standardized formats
-Created age groups
-Data Querying (SQL)
-Aggregated sales metrics
-Joined customer and transaction tables
-Visualization (Power BI)
-Built interactive dashboards
-Highlighted key insights
+Collected raw customer and sales data
+Cleaned and processed data using Python
+Queried and transformed data using SQL
+Built interactive Power BI dashboards
+🚀 Key Insights
+Adults (26–40) contributed the highest revenue
+Repeat customers showed higher spending patterns
+Customer segmentation helped identify valuable customer groups
+📌 Conclusion
+
+This project demonstrates an end-to-end analytics workflow using Python, SQL, and Power BI to transform raw sales data into actionable business insights.
